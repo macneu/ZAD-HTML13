@@ -1,0 +1,84 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.logo {
+    width: 200px;
+    height: 80px;
+    margin: 0 auto;
+}
+
+.card-header {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    font-size: 200%;
+
+}
+
+.card-body {
+    color: white;
+}
+
+.line_1 {
+    position: absolute;
+    top: 20%;
+    color: black;
+    width: 35%;
+    border: 2px solid black;
+}
+
+.line_2 {
+    position: absolute;
+    margin-left: 65%;
+    top: 20%;
+    color: black;
+    width: 35%;
+    border: 2px solid black;
+}
+
+.searchbar .btn {
+    z-index: 300;
+    color: white;
+}
+
+.carousel img{
+    height: 600px;
+}
+
+
+@media screen and (min-width: 992px) {
+    .w {
+      width: 50%;
+      margin-left: 30%;
+    }
+
+    .searchbar{
+        z-index: 300;
+        position: absolute;
+        right: 5%;
+        top:20%;
+    }
+
+    .bd {
+        font-size: 130%;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .w {
+      width: 100%;
+    }
+
+    .pow {
+        margin-top: 10%;
+    }
+
+
+
+    .searchbar{
+        z-index: 300;
+        position: absolute;
+        right: 5%;
+        top:10%;
+    }
+  }
